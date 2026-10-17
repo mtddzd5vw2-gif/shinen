@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>深淵の晩餐｜魔物を狩り、料理して喰らうローグライト（iPhone）</title>
+<meta name="description" content="倒した魔物を焼くか、煮るか、生で喰らうか。料理法で身につく力が変わる、油彩風ダークファンタジーのローグライト。iPhone 向け・オフライン・広告なし・アプリ内課金なし。">
+<meta name="theme-color" content="#07080a">
+<meta property="og:title" content="深淵の晩餐">
+<meta property="og:description" content="狩り、捌き、喰らい、生き延びよ。魔物を料理して食べ、強くなるダークファンタジーのローグライト。">
+<meta property="og:image" content="https://mtddzd5vw2-gif.github.io/shinen/img/key.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+  :root { --bg: #07080a; --panel: #101116; --ink: #efe6d2; --dim: #a89c84; --gold: #d8bd7e; --gold2: #f0d79a; --line: rgba(214,186,124,.32); color-scheme: dark; }
+  * { box-sizing: border-box; }
+  html { background: var(--bg); -webkit-text-size-adjust: 100%; }
+  body { margin: 0; color: var(--ink); background: var(--bg); font: 500 16px/1.95 "Hiragino Mincho ProN", "Yu Mincho", "YuMincho", "Noto Serif JP", serif; }
+  a { color: var(--gold2); text-underline-offset: 3px; }
+  .hero { position: relative; min-height: 88vh; display: flex; align-items: flex-end; justify-content: center; text-align: center; overflow: hidden; }
+  .hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 40%; filter: brightness(.7) saturate(.85); }
+  .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(7,8,10,.55), rgba(7,8,10,0) 30%, rgba(7,8,10,.25) 60%, #07080a 100%); }
+  .hero .in { position: relative; z-index: 1; padding: 0 16px 9vh; }
+  h1 { margin: 0; font-size: clamp(38px, 9vw, 64px); font-weight: 800; letter-spacing: .3em; margin-right: -.3em; line-height: 1.2; text-shadow: 0 0 24px #000; }
+  .en { font: 600 13px/1 "Cinzel", "Times New Roman", serif; letter-spacing: .5em; color: var(--gold); margin-top: 14px; }
+  .catch { margin: 22px 0 0; letter-spacing: .24em; text-shadow: 0 1px 8px #000; }
+  .store { display: inline-block; margin-top: 26px; padding: 12px 26px; color: var(--gold2); text-decoration: none; letter-spacing: .14em; box-shadow: 0 0 0 1px rgba(214,186,124,.75), inset 0 0 0 3px rgba(0,0,0,.8), inset 0 0 0 4px rgba(214,186,124,.14); background: rgba(10,10,12,.7); }
+  main { max-width: 760px; margin: 0 auto; padding: 0 16px 40px; }
+  section { margin: 56px 0 0; }
+  h2 { font-size: 21px; letter-spacing: .24em; text-align: center; margin: 0 0 18px; font-weight: 800; }
+  h2::after { content: ""; display: block; width: 140px; height: 1px; margin: 12px auto 0; background: linear-gradient(90deg, transparent, var(--gold), transparent); }
+  .story p { margin: 0 0 1.1em; }
+  .shots { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+  .shots img { width: 100%; display: block; border-radius: 4px; box-shadow: 0 0 0 1px var(--line), 0 10px 26px rgba(0,0,0,.5); }
+  @media (max-width: 620px) { .shots { grid-template-columns: repeat(2, 1fr); } }
+  ul.feat { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+  ul.feat li { padding: 12px 16px; background: var(--panel); box-shadow: 0 0 0 1px var(--line); border-radius: 3px; }
+  ul.feat b { color: var(--gold2); letter-spacing: .08em; }
+  .facts { width: 100%; border-collapse: collapse; font-size: 15px; }
+  .facts th, .facts td { text-align: left; padding: 9px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  .facts th { color: var(--dim); font-weight: 500; white-space: nowrap; width: 8.5em; }
+  footer { max-width: 760px; margin: 0 auto; padding: 24px 16px 40px; font-size: 13px; color: var(--dim); display: flex; flex-wrap: wrap; gap: 6px 18px; border-top: 1px solid var(--line); }
+  footer a { color: var(--ink); }
+</style>
+</head>
+<body>
+<header class="hero">
+  <img src="img/key.jpg" alt="洞窟の奥の光へ向かう三人の冒険者">
+  <div class="in">
+    <h1>深淵の晩餐</h1>
+    <div class="en">SUPPER OF THE ABYSS</div>
+    <p class="catch">狩り、捌き、喰らい、生き延びよ。</p>
+    <span class="store">App Store にて配信準備中（iPhone）</span>
+  </div>
+</header>
+<main>
+  <section class="story">
+    <h2>ものがたり</h2>
+    <p>三年前の冬、谷の底が裂けて〈灰の大穴〉が口を開けた。以来、高原の村ヴェルナの畑は灰色に枯れ、井戸の水さえ苦くなった。</p>
+    <p>大穴へ降りた者は、誰ひとり戻らない。名乗り出たのは三人――盾を失った騎士ガレス、宿屋の料理番ハンナ、学院を追われた魔導士シオン。</p>
+    <p>携えた糧は三日分。大穴の魔物はどれも飢えていた。そして、こちらも。</p>
+  </section>
+  <section>
+    <h2>画面</h2>
+    <div class="shots">
+      <img src="img/shot-map.jpg" alt="扉を選んで大穴を進む画面" loading="lazy">
+      <img src="img/shot-battle.jpg" alt="地底湖での戦闘" loading="lazy">
+      <img src="img/shot-dish.jpg" alt="鎧蟲の殻ごと黄金揚げ" loading="lazy">
+      <img src="img/shot-recipes.jpg" alt="献立帳" loading="lazy">
+    </div>
+  </section>
+  <section>
+    <h2>遊び方</h2>
+    <ul class="feat">
+      <li><b>倒して、料理する。</b>倒した魔物は食材になる。焼く・煮る・揚げる・蒸す・生――料理法で身につく力が変わる。</li>
+      <li><b>火加減で決まる。</b>動く針が「絶妙」に入った瞬間に止めれば、効果が上がる。</li>
+      <li><b>誰に食べさせるか。</b>胃袋に収まった料理だけが、その者の力になる。好物なら効きがよく、苦手だと落ちる。</li>
+      <li><b>極上と禁忌。</b>魔物ごとに隠された最良の料理法と、決してしてはいけない料理法がある。</li>
+      <li><b>全滅しても、記録は残る。</b>魔物録と献立帳（全75品と、最後の一皿）を埋めながら、大穴の最奥を目指す。</li>
+    </ul>
+  </section>
+  <section>
+    <h2>概要</h2>
+    <table class="facts">
+      <tr><th>対応</th><td>iPhone（縦画面）・iOS 15 以上・日本語</td></tr>
+      <tr><th>遊ぶ時間</th><td>1回 15〜20分ほど</td></tr>
+      <tr><th>売り方</th><td>買い切り。広告なし・アプリ内課金なし・スタミナなし</td></tr>
+      <tr><th>通信</th><td>遊んでいるあいだは通信しません。セーブは端末の中だけ</td></tr>
+      <tr><th>個人情報</th><td>集めません（<a href="privacy.html">プライバシーポリシー</a>）</td></tr>
+      <tr><th>制作</th><td>サン楽（『いただきますダンジョン』の作者）</td></tr>
+    </table>
+  </section>
+</main>
+<footer>
+  <a href="privacy.html">プライバシーポリシー</a>
+  <a href="support.html">サポート</a>
+  <span>© 2026 サン楽</span>
+</footer>
+</body>
+</html>
